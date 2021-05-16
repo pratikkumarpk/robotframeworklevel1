@@ -10,3 +10,18 @@ Begin web Test
 Go to link
     [Arguments]  ${url}
     Go To  ${url}
+
+Verify Home Page Title
+    [Arguments]  ${title}
+    Title Should Be  ${title}
+
+Switching to newlyOpened Window
+    Switch Window  NEW
+
+Get text of
+    [Arguments]  ${button}
+    ${textOf}  get text  xpath://*[text()='${button}']
+    log  ${textOf}
+
+Switching back to main window
+    Switch Window  MAIN

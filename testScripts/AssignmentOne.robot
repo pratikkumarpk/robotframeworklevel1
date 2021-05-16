@@ -12,6 +12,8 @@ ${URL} =  http://automationpractice.com/index.php
 
 *** Test Cases ***
 Assignment One
+    [Tags]  smoke
+    Verify Home Page Title  My Store
     Validating all the links on home are visible and clickable
     Clicking on cart button
     Validating that the cart is empty

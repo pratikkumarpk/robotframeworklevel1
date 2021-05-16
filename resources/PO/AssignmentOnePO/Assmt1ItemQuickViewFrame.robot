@@ -1,6 +1,5 @@
 *** Settings ***
 Library  Selenium2Library
-Library  Selenium2Library
 
 *** Variables ***
 ${frameQuickView} =  css:[id*=fancybox]
