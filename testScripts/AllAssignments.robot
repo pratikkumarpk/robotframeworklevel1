@@ -15,7 +15,7 @@ ${URL_3} =  https://www.w3schools.com/
 
 *** Test Cases ***
 Assignment One
-    [Tags]  smoke,one
+    [Tags]  smoke  one
     Begin web Test  ${URL_1}  ${BROWSER}
     Verify Home Page Title  My Store
     Validating all the links on home are visible and clickable
@@ -29,16 +29,16 @@ Assignment Two
     [Documentation]  The website has been moved or changed completely. Test case no longer valid.
 
 Assignment Three
-    [Tags]  smoke,three
+    [Tags]  smoke  three
     Begin web Test  ${URL_2}  ${BROWSER}
     Verify Home Page Title  Tryit Editor v3.6
     Clicking on Run Button
     Getting Text From Heading  This is a Heading
-    Changing The Text From Heading  automation practice
+    #Changing The Text From Heading  automation practice
     Verify That Text is Successfully Set  automation practice
 
 Assignment Four
-    [Tags]  smoke,four
+    [Tags]  smoke  four
     Begin web Test  ${URL_3}  ${BROWSER}
     Verify Home Page Title  W3Schools Online Web Tutorials
     Getting text of Learn Html Button

@@ -1,9 +1,5 @@
 *** Settings ***
-Documentation  This is assigngment two for Robot Framework Level 1.
-Resource  ../resources/Common.robot
-
-Test Setup  Begin web Test  ${URL}  ${BROWSER}
-Test Teardown   Close Browser
+Documentation  This is assigngment three for Robot Framework Level 1.
 Resource  ../resources/Common.robot
 Resource  ../resources/Assm3W3School.robot
 

@@ -25,3 +25,7 @@ Get text of
 
 Switching back to main window
     Switch Window  MAIN
+
+Hover over the Element
+    [Arguments]  ${ele}
+    Mouse Over  ${ele}
